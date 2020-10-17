@@ -1,0 +1,57 @@
+# 1 Example.
+def function1(surname):
+    # Here the function has a parameter surname.
+    print("Ann " + surname)
+
+
+function1("Taylor")
+# Here we also put 1 argument to function.
+
+
+# 2 Example.
+
+
+def function2():
+
+     # String.
+     function1("Software application developer")
+
+     # integer.
+     function1(21)
+
+     # Boolean.
+     function1(True)
+
+
+# 3 Example.
+
+
+def function3():
+     x = 540
+     print(x)
+
+
+function3()
+
+
+def function3():
+    x = 540
+
+
+function3()
+# NameError: name 'x' is not defined
+print(x)
+
+
+# 4 Example.
+
+
+color = "black"
+
+def function4(color):
+    print(color + "car")
+
+
+function4("black")
+
+print(color)
